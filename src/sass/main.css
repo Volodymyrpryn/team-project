@@ -42,4 +42,15 @@
     color: --secondary-text-color;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+  .gallery__img {
+    position: absolute;
+    width: 320px;
+    height: 122px;
+  }
+}
 /*# sourceMappingURL=main.css.map */
