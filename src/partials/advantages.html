@@ -1,54 +1,52 @@
+<!DOCTYPE html>
+ <html lang="en">  
 
- <head>  
-    <title>IceCrem</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="images/sprite.svg">
-    <link rel="stylesheet" href="images/sprite.svg">
-    <link rel="stylesheet" href="images/made-icon1.svg">
-    <link rel="stylesheet" href="images/made-icon2.svg">
-    <link rel="stylesheet" href="images/made-icon3.svg">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
- </head>
+ <head>    
+    <meta charset="UTF-8" />    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />   
+    <link rel="stylesheet" href="images/how-made">
+    <link rel="stylesheet" href="images/svg">
+    <title>Ice Cream</title>
+</head>  
+<body>    
+    <!-- W taki sposbu dodajemy fragmenty w główny HTML-plik strony. -->
+    <include src="./partials/hero.html"></include>    
+    <include src="./partials/products.html"></include>    
+    <include src="./partials/about.html"></include>    
+    <include src="./partials/advantages.html"></include>    
+    <include src="./partials/gallery.html"></include>    
+    <include src="./partials/customer-reviews.html"></include>    
+    <include src="./partials/contacts.html"></include>    
+    <include src="./partials/footer.html"></include>
 
 <section class="advantages">
     <div class="container">
         <ul class="advantages__list">
             <li class="advantages__item">
-                <span>
-                    <svg width="33" height="50">
-                      <use href="images/made-icon1.svg"></use>
-                    </svg>
-                </span>
+                <picture>
+                    <source srcset="/parcel-project-template/how-made-list-item-picture-1.9477f3d4.webp    1x,/parcel-project-template/how-made-list-item-picture-1_2x.2903a08b.webp 2x,/parcel-project-template/how-made-list-item-picture-1.12aa2770.png     1x,/parcel-project-template/how-made-list-item-picture-1@2x.2c3676a2.png  2x" type="image/webp">
+                    <img class="advantages__pic" src="/images/how-made/how-made-list-item-picture-1.png" alt="Milk">
+                </picture>
                 <p class="advantages__tittle">721</p>
                 <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="advantages__item">
-                <span>
-                    <svg width="50" height="50">
-                      <use href="images/made-icon2.svg"></use>
-                    </svg>
-                </span>
+                <picture>
+                    <source srcset="/parcel-project-template/how-made-list-item-picture-2.e6b65c1e.webp    1x,/parcel-project-template/how-made-list-item-picture-2_2x.ffd7dd4a.webp 2x,/parcel-project-template/how-made-list-item-picture-2.bb3d3673.png     1x,/parcel-project-template/how-made-list-item-picture-2@2x.2ca7bcd6.png  2x" type="image/webp">
+                    <img class="advantages__pic" src="/parcel-project-template/how-made-list-item-picture-2.bb3d3673.png" alt="Fruits">
+                </picture>
                 <p class="advantages__tittle">16KG</p>
                 <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
             <li class="advantages__item">
-                <span>
-                    <svg width="44" height="50">
-                      <use href="images/made-icon3.svg"></use>
-                    </svg>
-                </span>
+                <picture>
+                    <source srcset="/parcel-project-template/how-made-list-item-picture-3.deab19a7.webp    1x,/parcel-project-template/how-made-list-item-picture-3_2x.64cc9e1d.webp 2x,/parcel-project-template/how-made-list-item-picture-3.1e959194.png     1x,/parcel-project-template/how-made-list-item-picture-3@2x.7398eae5.png  2x" type="image/webp">
+                    <img class="advantages__pic" src="/parcel-project-template/how-made-list-item-picture-3.1e959194.png" alt="Ice-cream">
+                </picture>
                 <p class="advantages__tittle">84</p>
                 <p class="advantages__text">Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
             </li>
         </ul>
     </div>
 </section>
+</body>
