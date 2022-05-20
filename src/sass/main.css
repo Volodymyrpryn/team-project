@@ -1,8 +1,4 @@
 @charset "UTF-8";
-/*
- * Główny plik dla stylów.
- * Wszystkie partials podłączamy tutaj.
- */
 @media screen and (max-width: 768px) {
   .container {
     max-width: 768px;
