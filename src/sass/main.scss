@@ -1,8 +1,5 @@
-/*
- * Główny plik dla stylów.
- * Wszystkie partials podłączamy tutaj.
- */
-
-// Style dla pliku z przykładem HTML fragmentu
+@import './variables';
+@import './contactice';
+@import './visually_hidden';
 @import './components/advantages';
 @import './components/gallery';
